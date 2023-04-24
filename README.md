@@ -9,6 +9,12 @@ A string is balanced if it consists of exactly two different characters and both
 
 Answer:
 
+Solution: balancedSubstring.js
+
+Run Command : Node balancedSubstring.js  (You can test the code in any javascript online compiler also)
+
+Description:
+
 isBalanced
 
 The isBalanced function takes a string str as input and returns true if the string is balanced and false otherwise. A string is considered balanced if it consists of exactly two different characters and both of those characters appear exactly the same number of times.
