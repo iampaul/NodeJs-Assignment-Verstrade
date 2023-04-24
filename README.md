@@ -37,7 +37,8 @@ If the length of the current substring is greater than the maximum length of any
 After all substrings have been checked, the function returns the result array containing the longest balanced substrings of the input string.
 
 
-// Senior level
+ <h3>// Senior level</h3>
+ 
 You're given 3 plates (A, B, C) and an N number of rings labelled according to the diameter of each ring. For instance, Ring 5 has 5cm diameter and hence is larger than Ring 4 (4cm diameter) and Ring 3 (3cm diameter) etc.Write a function solution named "migrateRings(N, A, B, C)" that accepts a positive integer input; N denoting the number of Rings labelled from 1 to N as their respective diameter sizes. These provided Rings are sorted in ascending order on Plate A denoted by the input A. The task is to move all the rings from Plate A to Plate B using Plate C as help for auxillary holder. The function should return an array of the steps required to migrate N Rings from Plate A to Plate B.
 At the end of the solution, all Rings should be sorted on Place B just as it was on Plate A.Examples:
 1. Given N = 2, the function should return ["1: A to C", "2: A to B", "1: C to B"] which corresponds to the movements of each Ring on each Plate.
