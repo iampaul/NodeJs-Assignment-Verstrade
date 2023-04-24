@@ -1,6 +1,6 @@
 # NodeJs-Assignment-Verstrade
 
-// Senior/Mid level
+<h3>// Senior/Mid level</h3>
 
 A string is balanced if it consists of exactly two different characters and both of those characters appear exactly the same number of times. For example: "aabbab" is balanced (both 'a' and 'b' occur three times) but "aabba" is not balanced ('a' occurs three times, 'b' occurs two times). String "aabbcc" is also not balanced (it contains three different letters).A substring of string S is a string that consists of consecutive letters in S. For example: "ompu" is a substring of "computer" but "cmptr" is not.Write a function solution called getBalancedSubstrings(List<String> S) that, given a string S, returns an array of the longest balanced substring of S.Examples:
 1. Given S = "cabbacc", the function should return ["abba"] because it is the longest balanced substring.
@@ -8,15 +8,15 @@ A string is balanced if it consists of exactly two different characters and both
 3. Given S = "aaaaaaa", the function should return [] since S does not contain a balanced substring.Write an efficient algorithm for the following assumptions:
  - string S is made only of lowercase letters (a−z).
 
-Answer:
+ <h3>Answer:</h3>
 
-Solution: balancedSubstring.js
+ <h4>Solution:</h4> balancedSubstring.js
 
-Run Command : Node balancedSubstring.js  (You can test the code in any javascript online compiler also)
+ <h4>Run Command:</h4> Node balancedSubstring.js  (You can test the code in any javascript online compiler also)
 
-Description:
+ <h4>Description:</h4>
 
-isBalanced
+ <h5>isBalanced</h5>
 
 The isBalanced function takes a string str as input and returns true if the string is balanced and false otherwise. A string is considered balanced if it consists of exactly two different characters and both of those characters appear exactly the same number of times.
 
@@ -26,7 +26,7 @@ If the string has exactly two unique characters, the function counts the frequen
 
 Finally, the function compares the frequency of the two characters and returns true if they are equal and false otherwise.
 
-getBalancedSubstrings
+ <h5>getBalancedSubstrings</h5>
 
 The getBalancedSubstrings function takes a string S as input and returns an array of the longest balanced substrings of the input string. A substring is a string that consists of consecutive letters in the input string.
 
