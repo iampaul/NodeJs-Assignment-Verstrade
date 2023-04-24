@@ -35,3 +35,32 @@ The function iterates over all possible substrings of the input string using two
 If the length of the current substring is greater than the maximum length of any previously found balanced substrings, the result array is cleared and the current substring is added to it.
 
 After all substrings have been checked, the function returns the result array containing the longest balanced substrings of the input string.
+
+
+// Senior level
+You're given 3 plates (A, B, C) and an N number of rings labelled according to the diameter of each ring. For instance, Ring 5 has 5cm diameter and hence is larger than Ring 4 (4cm diameter) and Ring 3 (3cm diameter) etc.Write a function solution named "migrateRings(N, A, B, C)" that accepts a positive integer input; N denoting the number of Rings labelled from 1 to N as their respective diameter sizes. These provided Rings are sorted in ascending order on Plate A denoted by the input A. The task is to move all the rings from Plate A to Plate B using Plate C as help for auxillary holder. The function should return an array of the steps required to migrate N Rings from Plate A to Plate B.
+At the end of the solution, all Rings should be sorted on Place B just as it was on Plate A.Examples:
+1. Given N = 2, the function should return ["1: A to C", "2: A to B", "1: C to B"] which corresponds to the movements of each Ring on each Plate.
+2. Given N = 3, the function should return ["1: A to B", "2: A to C", "1: B to C", "3: A to B", "1: C to A", "2: C to B", "1: A to B"]
+3. Given N = 1, the function should return ["1: A to B"]Write an algorithm that assumes the following conditions:
+ - Only one Ring can be moved at a time
+ - A larger Ring cannot be placed on top of a smaller Ring. Example, Ring 4 can only be placed on Ring 5+ and not on any of Ring 3-
+ - Ring diameter cannot be negative
+ 
+ <h3>Answer:</h3>
+
+ <h4>Solution:</h4> migrateRings.js
+
+ <h4>Run Command:</h4> node migrateRings.js  (You can test the code in any javascript online compiler also)
+
+ <h4>Description:</h4>
+ 
+The migrateRings function is a JavaScript function that takes four parameters: N, A, B, and C.
+
+N represents the number of rings that we need to move from plate A to plate B. The rings are sorted in ascending order on plate A, with the largest ring on the bottom and the smallest ring on top.
+
+The function works by recursively moving the rings from plate A to plate B, using plate C as an auxiliary holder. At each step, the function moves one ring from plate A to plate B, making sure that a larger ring is never placed on top of a smaller ring.
+
+The function returns an array of strings, where each string represents a single step in the process of moving the rings. For example, "1: A to B" means that the first ring was moved from plate A to plate B.
+
+The function also includes a check to ensure that N is a positive integer. If N is less than or equal to zero, the function throws an error with a message saying that N must be a positive integer.
