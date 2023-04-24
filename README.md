@@ -12,7 +12,7 @@ A string is balanced if it consists of exactly two different characters and both
 
  <h4>Solution:</h4> balancedSubstring.js
 
- <h4>Run Command:</h4> Node balancedSubstring.js  (You can test the code in any javascript online compiler also)
+ <h4>Run Command:</h4> node balancedSubstring.js  (You can test the code in any javascript online compiler also)
 
  <h4>Description:</h4>
 
