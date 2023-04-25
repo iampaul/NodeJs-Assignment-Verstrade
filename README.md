@@ -12,7 +12,7 @@ A string is balanced if it consists of exactly two different characters and both
 
  <h4>Solution:</h4> balancedSubstring.js
 
- <h4>Run Command:</h4> node balancedSubstring.js  (You can test the code in any javascript online compiler also)
+ <h4>Run Command:</h4> node balancedSubstring.js  (You can test the code in any javascript online compiler also https://www.programiz.com/javascript/online-compiler)
 
  <h4>Description:</h4>
 
@@ -52,7 +52,7 @@ At the end of the solution, all Rings should be sorted on Place B just as it was
 
  <h4>Solution:</h4> migrateRings.js
 
- <h4>Run Command:</h4> node migrateRings.js  (You can test the code in any javascript online compiler also)
+ <h4>Run Command:</h4> node migrateRings.js  (You can test the code in any javascript online compiler also https://www.programiz.com/javascript/online-compiler)
 
  <h4>Description:</h4>
  
